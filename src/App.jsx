@@ -26,6 +26,7 @@ const App = () => {
     };
     return (
         <div className="calculator-container">
+            
             <div className="calculator">
                 <div className="display">
                     {input || "0"}
