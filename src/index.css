@@ -65,17 +65,22 @@ body{
     background-color: #131313;
 }
 .btn.control:hover{
-    background-color: #151515;
+    background-color: #3e3c3c;
 }
 
 .btn.eaquals{
-    background-color: #0b152f;
+    background-color: #122044;
 }
 
 .btn.btn.eaquals:hover{
-    background-color: #132553;
+    background-color: #214294;
 }
 
 .btn.zero{
     grid-column: span 2;
+}
+
+.btn:active{
+    background-color: #f4f7ff;
+    color:#09183f
 }
