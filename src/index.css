@@ -20,7 +20,7 @@ body{
 }
 
 .calculator{
-    background: rgba(255, 255, 255, 0.077);
+    background: rgba(0, 0, 0, 0.404);
     backdrop-filter: blur(4px);
     border-radius: 16px;
     padding: 30px;
@@ -29,7 +29,8 @@ body{
 }
 
 .display{
-    background-color: #8acdf7;
+    background: rgba(0, 0, 0, 0.074);
+    backdrop-filter: blur(4px);
     color: #638efa;
     font-size: 2rem;
     padding: 20px;
@@ -46,38 +47,37 @@ body{
 }
   
 .btn{
-    background: #020024;
-    background: linear-gradient(130deg,rgb(150, 147, 194) 0%, rgb(72, 72, 98) 35%, rgb(8, 167, 195) 100%);
+    background: rgba(177, 171, 171, 0.032);
+    backdrop-filter: blur(4px);
     color: white;
     border: none;
     font-size: 1.2rem;
     padding: 18px;
-    border-radius: 10px;
+    border-radius: 30px;
     cursor: pointer;
-    transition: background 0.2s ease;
 }
 
 .btn:hover{
-    background: #020024;
-    background: linear-gradient(130deg,rgb(77, 163, 199) 0%, rgb(89, 89, 188) 35%, rgb(2, 30, 36) 100%);
+    background: #4882ac64;
+    background: linear-gradient(130deg,rgba(77, 162, 199, 0.135) 0%, rgb(89, 162, 188) 35%, rgb(5, 113, 137) 100%);
 }
 
 .btn.operator{
-    background-color: #09183f;
+    background-color: #09183f00;
 }
 .btn.operator:hover{
-    background-color: #0d1e47;
+    background-color: #0d1e4729;
 }
 
 .btn.control{
-    background-color: #131313;
+    background-color: #00000000;
 }
 .btn.control:hover{
     background-color: #151515;
 }
 
 .btn.eaquals{
-    background-color: #0b152f;
+    background-color: #77787b00;
 }
 
 .btn.btn.eaquals:hover{
